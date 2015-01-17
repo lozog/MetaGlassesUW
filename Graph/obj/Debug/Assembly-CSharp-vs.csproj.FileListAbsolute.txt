@@ -1,0 +1,14 @@
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\Meta.dll
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\UnityEditor.dll
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\UnityEngine.dll
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\UnityEngine.UI.dll
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\Vectrosity.dll
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\nunit.framework.dll
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\Jake\Desktop\MHacks\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\Jake\Desktop\MHacks\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\Jake\Desktop\MHacks\obj\Debug\Assembly-CSharp.dll
+C:\Users\Jake\Desktop\MHacks\obj\Debug\Assembly-CSharp.pdb
