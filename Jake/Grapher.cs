@@ -3,14 +3,6 @@ using System.Collections;
 
 public class Grapher : MonoBehaviour
 {
-
-    //amount of points in graph
-    public int resolution = 10;
-    public float size = 0.1f;
-    public float scale = 1.0f;
-
-    private int curRes;
-    private float curScale;
     private ParticleSystem.Particle[] points;
 
     public float verticalStrech_a;
@@ -20,6 +12,17 @@ public class Grapher : MonoBehaviour
     public float phase;
 
     public bool modify;
+
+    public float size = 0.1f;
+    public float scale = 1.0f;
+
+    //amount of points in graph
+    [Range(10, 250)]
+    public int resolution = 10;
+
+    private int curRes;
+    private float curScale;
+    private float curSize;
 
     public enum FunctionOption
     {
@@ -54,6 +57,7 @@ public class Grapher : MonoBehaviour
 
         curRes = resolution;
         curScale = scale;
+        curSize = size;
 
         for (int i = 0; i < resolution; i++)
         {
@@ -69,7 +73,7 @@ public class Grapher : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (curRes != resolution || curScale != scale)
+        if (curRes != resolution || curScale != scale || curSize != size)
         {
             CreatePoints();
         }
@@ -89,7 +93,7 @@ public class Grapher : MonoBehaviour
         }
 
         //transform.position.x = horizontalShift_d;
-        transform.position = new Vector3(horizontalShift_d, 0, 0);
+        transform.position = new Vector3(horizontalShift_d, transform.position.y, transform.position.z);
 
 
 
